@@ -1,0 +1,44 @@
+a:link, a:visited {
+	color: rgb(108,166,205);
+}
+
+a:hover, a:active {
+	color: rgb(108,166,205);
+}
+
+#navcontainer #current {
+	background: rgb(108,166,205);
+}
+
+#navcontainer .currentAncestor {
+	background: rgb(108,166,205);
+}
+
+#navcontainer a:hover {
+	background: rgb(108,166,205);
+}
+
+/*#navcontainer ul ul {
+	border-bottom: 3px solid rgb(126,192,238);
+}*/
+
+#navcontainer ul ul a:hover{
+	color: rgb(164,211,238);
+}
+
+#navcontainer ul ul #current{
+	color: rgb(164,211,238);
+}
+
+#navcontainer ul ul .currentAncestor {
+	color: rgb(164,211,238);
+	background: url(../../images/sub_button.png) repeat;
+}
+
+html>body #navcontainer ul ul .currentAncestor {
+	background: repeat url(../../images/sub_button_trans.png);
+}
+
+.movie-background {
+	margin: 10px;
+}
